@@ -1,0 +1,7 @@
+.site-button {
+  @include button;
+  background-color: white;
+}
+.history a {
+  @include button;
+}
