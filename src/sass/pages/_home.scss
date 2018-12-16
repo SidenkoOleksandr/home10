@@ -190,6 +190,7 @@
 .songs-intagram-container {
   display: flex;
   justify-content: space-between;
+
   h2 {
     color: $darkCharcoal;
     font-family: $oswald;
@@ -216,7 +217,85 @@
 }
 
 .inst {
+  max-width: 30%;
+
   li {
     display: inline-block;
   }
+}
+
+.popular_songs {
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.songs-list{
+  display: flex;
+  justify-content: space-between;
+
+  ol {
+    display: inline-block;
+  }
+}
+
+.download {
+  background: url(../img/background_download.png) no-repeat;
+  background-size: cover;
+  padding: 75px 0 100px 0;
+  text-align: center;
+
+  h2 {
+    margin: 15px 0 auto;
+
+    color: white;
+    font-family: $oswald;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  p {
+    color: white;
+    font-family: $droidSans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+  }
+}
+
+.bottom-line {
+  margin: 0 auto;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #282828 solid 3px ;
+  h2 {
+    color: #282828;
+    font-family: $droidSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.88px;
+    letter-spacing: 3.2px;
+  }
+}
+
+footer nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
 }
